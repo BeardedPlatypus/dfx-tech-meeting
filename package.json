@@ -1,5 +1,9 @@
 {
   "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "gatsby": "^2.32.13",
+    "gatsby-plugin-compile-es6-packages": "^2.1.0",
+    "gatsby-theme-mdx-deck": "^4.1.0",
     "mdx-deck": "^4.1.1"
   },
   "scripts": {
