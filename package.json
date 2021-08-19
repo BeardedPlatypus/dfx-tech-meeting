@@ -1,16 +1,20 @@
 {
-  "devDependencies": {
-    "@babel/core": "^7.15.0",
-    "gatsby": "^2.32.13",
-    "gatsby-plugin-compile-es6-packages": "^2.1.0",
-    "gatsby-theme-mdx-deck": "^4.1.0",
-    "mdx-deck": "^4.1.1"
-  },
+  "name": "dfx-tech-meeting",
+  "version": "0.1.0",
+  "description": "Slides for an internal Tech Meeting about the DFX project",
+  "homepage": "https://beardedplatypus.github.io/dfx-tech-meeting",
   "scripts": {
     "start": "mdx-deck ./slides/deck.mdx",
     "build": "npm run clean && gatsby build --prefix-paths && mv public build",
     "deploy": "npx gh-pages --dist ./build --branch gh-pages",
     "pdf": "mdx-deck pdf deck.mdx",
     "clean": "rm -rf .cache build public"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "gatsby": "^2.32.13",
+    "gatsby-plugin-compile-es6-packages": "^2.1.0",
+    "gatsby-theme-mdx-deck": "^4.1.0",
+    "mdx-deck": "^4.1.1"
   }
 }
