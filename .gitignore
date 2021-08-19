@@ -105,3 +105,4 @@ dist
 
 # mdx-deck build output
 public/
+build/
