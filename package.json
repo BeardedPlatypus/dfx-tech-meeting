@@ -16,5 +16,8 @@
     "gatsby-plugin-compile-es6-packages": "^2.1.0",
     "gatsby-theme-mdx-deck": "^4.1.0",
     "mdx-deck": "^4.1.1"
+  },
+  "dependencies": {
+    "framer-motion": "^4.1.17"
   }
 }
