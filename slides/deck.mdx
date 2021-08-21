@@ -1,7 +1,14 @@
+import { Split, Head } from 'mdx-deck'
 import { BackgroundBubbles } from '../components/background-bubbles'
-import { themes } from 'mdx-deck'
+import myTheme from '../lib/theme'
 
-export const theme = themes.future
+export const theme = myTheme
+
+<Head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Lato:wght@700&display=swap" rel="stylesheet" />
+</Head>
 
 
 #  DFX
@@ -10,6 +17,31 @@ export const theme = themes.future
 <BackgroundBubbles />
 
 --- 
+
+#  DFX
+### Tech Meeting
+
+<AnimatePresence exitBeforeEnter/>
+
+---
+
+<Split>
+
+<div>
+
+# Agenda
+
+- Legacy DFX - Demo
+- DFX Toolkit - Demo
+- New architecture
+- Within Unity
+- Dependency Injection with Zenject
+
+</div>
+
+</Split>
+
+---
 
 ## Legacy DFX
 ### The good:
